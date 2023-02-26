@@ -13,8 +13,8 @@ Le projet final de ce cours de *PHP* consiste à développer une application web
 ![Modification d'un enregistrement](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhckeR9PlSnsP0MKP2PMSAu4AUDafth4jOa6k9C3zaP3A6zEmg37FfnAIrNPIyyTG_2IfiMam6yfxp1djO7mgAq52OmrZSCpx2TGe8PmTLZ28BsZWYzbMxtPhgkGFKdBzA0AQjS9I9qFWK1rIYechF2G9WExV9LAL8TGpkiw8dwgHJgQJenNQZUCvgX/s1600/modificationInfo.png "Modification d'un enregistrement")
 
 ## Version demo
-# Site : http://taoufik.epizy.com/
-# Connectez-vous avec:
+### Site : http://taoufik.epizy.com/
+#### Connectez-vous avec:
 - Email: Yannick@gmail.com
 - Mot de passe: 12345678
 
