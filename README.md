@@ -15,8 +15,8 @@ Le projet final de ce cours de *PHP* consiste à développer une application web
 ## Version demo
 # Site : http://taoufik.epizy.com/
 # Connectez-vous avec:
-#Email: Yannick@gmail.com
-#Mot de passe: 12345678
+- Email: Yannick@gmail.com
+- Mot de passe: 12345678
 
 ## A propos du site
 
