@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sondage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exercice - Sondage</h1>
+    <form action="http://localhost:8080/w10/sondage" method="post">
+        <fieldset>
+            <legend>Évaluation du cours:</legend>
+            <div>
+                <label for="coursObjectif">Les objectifs définis dans le plan de cours ont été atteints.</label>
+                <select name="coursObjectif" id="coursObjectif" required>
+                    <option value="" selected>Sélectionner le niveau d'appréciation</option>
+                    <option value="tresInsatisfait">Très insatisfait</option>
+                    <option value="Insatisfait">Insatisfait</option>
+                    <option value="Satisfait">Satisfait</option>
+                    <option value="tresSatisfait">Très Satisfait</option>
+                </select>
+            </div>
+            <div>
+                <label for="coursStructure">La structure du cours a favorisé l'atteinte des objectis du cours.</label>
+                <select name="coursStructure" id="coursStructure" required>
+                    <option value="" selected>Sélectionner le niveau d'appréciation</option>
+                    <option value="tresInsatisfait">Très insatisfait</option>
+                    <option value="Insatisfait">Insatisfait</option>
+                    <option value="Satisfait">Satisfait</option>
+                    <option value="tresSatisfait">Très Satisfait</option>
+                </select>
+            </div>
+            <div>
+                <label for="coursAmbiance">L'ambiance du cours (discipline, respect d'horaires,etc.) était favorable à
+                    l'apprentissage.</label>
+                <select name="coursAmbiance" id="coursAmbiance" required>
+                    <option value="" selected>Sélectionner le niveau d'appréciation</option>
+                    <option value="tresInsatisfait">Très insatisfait</option>
+                    <option value="Insatisfait">Insatisfait</option>
+                    <option value="Satisfait">Satisfait</option>
+                    <option value="tresSatisfait">Très Satisfait</option>
+                </select>
+            </div>
+            <div>
+                <label for="coursSupport">Le support pédagogique a été adéquat pour l'atteinte des objectifs du
+                    cours.</label>
+                <select name="coursSupport" id="coursSupport" required>
+                    <option value="" selected>Sélectionner le niveau d'appréciation</option>
+                    <option value="tresInsatisfait">Très insatisfait</option>
+                    <option value="Insatisfait">Insatisfait</option>
+                    <option value="Satisfait">Satisfait</option>
+                    <option value="tresSatisfait">Très Satisfait</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset class="professeur">
+            <legend>Évaluation du professeur:</legend>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Mauvais</th>
+                    <th>Moyen</th>
+                    <th>Bon</th>
+                    <th>Excellent</th>
+                </tr>
+                <tr>
+                    <td>Le formateur se montre patient, conserve une attitude positive et
+                        respecte les participants.</td>
+                    <td><input type="radio" name="professeurPatient" required></td>
+                    <td><input type="radio" name="professeurPatient"></td>
+                    <td><input type="radio" name="professeurPatient"></td>
+                    <td><input type="radio" name="professeurPatient"></td>
+                </tr>
+                <tr>
+                    <td>Les réponses apportées aux questions sont claires et
+                        pertinentes.</td>
+                    <td><input type="radio" name="professeurReponse" required></td>
+                    <td><input type="radio" name="professeurReponse"></td>
+                    <td><input type="radio" name="professeurReponse"></td>
+                    <td><input type="radio" name="professeurReponse"></td>
+                </tr>
+                <tr>
+                    <td>Les explications données lors du cours sont claires et
+                        précises.</td>
+                    <td><input type="radio" name="professeurExplication" required></td>
+                    <td> <input type="radio" name="professeurExplication"></td>
+                    <td><input type="radio" name="professeurExplication"></td>
+                    <td><input type="radio" name="professeurExplication"></td>
+                </tr>
+                <tr>
+                    <td>Le cours est intéressant et dynamique.</td>
+                    <td><input type="radio" name="professeurInteressant" required></td>
+                    <td><input type="radio" name="professeurInteressant"></td>
+                    <td><input type="radio" name="professeurInteressant"></td>
+                    <td><input type="radio" name="professeurInteressant"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <fieldset>
+            <legend>Commentaires:</legend>
+
+            <div>
+                <label for="commentaire"></label>
+                <textarea id="commentaire" name="commentaire"></textarea>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+
+</html>

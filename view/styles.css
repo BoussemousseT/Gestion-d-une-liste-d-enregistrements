@@ -1,0 +1,71 @@
+/* PRODUCT CATALOGUE  STYLING*/
+
+/* product div */
+header h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+
+}
+
+nav {
+    background-color: gray;
+    color: white;
+    padding: 10px
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px
+}
+
+.product {
+    width: 200px;
+    height: 320px;
+    overflow: auto;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.product:hover {
+    background-color: #c0c0c0;
+}
+
+/* product image */
+.product img {
+    width: 100%;
+}
+
+/* product name */
+.product .name {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* product description */
+.product .description {
+    margin: 0;
+}
+
+/* product price */
+.product .price {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    margin: 0;
+}
+
+.errMsg {
+    /* background-color: red; */
+    color: red;
+}
+
+.imageProfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

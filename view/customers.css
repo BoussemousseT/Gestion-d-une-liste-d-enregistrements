@@ -1,0 +1,302 @@
+/* CUSTOMERS PAGE STYLING*/
+@font-face {
+    font-family: roboto;
+    src: url(font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    /* padding: 0px; */
+    /* background-color: black; */
+
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    font-family: roboto;
+    background-color: #003580;
+    color: white;
+    padding: 10px;
+}
+
+header h2 img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+/* nav */
+
+nav {
+    /* background-color: gray;
+    color: white;*/
+    /* padding: 500px; */
+    background-color: #febb02;
+    position: relative;
+
+    /* margin-left: 310px; */
+}
+
+nav a+span {
+    font-family: robotoRegular;
+    color: black;
+    position: absolute;
+    vertical-align: bottom;
+    right: 80px;
+    margin-top: 15px
+}
+
+nav img {
+    /* display: inline-block; */
+    vertical-align: middle;
+    position: absolute;
+    right: 10px;
+
+}
+
+nav a {
+    font-family: roboto;
+    color: black;
+    margin: 15px;
+    text-decoration: unset;
+    display: inline-block;
+    border-bottom: 5px solid #febb02;
+
+
+}
+
+nav a:hover {
+    border-bottom: 5px solid red;
+
+}
+
+
+/*body*/
+
+.listClient {
+    text-align: center;
+}
+
+.addSearchResult {
+    text-align: center;
+}
+
+/*image add new client*/
+.addSearchResult span a img {
+    width: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: solid 5px white;
+}
+
+.addSearchResult span a img:hover {
+    border-bottom: solid 5px black;
+}
+
+
+.addSearchResult span:Last-of-type {
+    font-family: roboto;
+    color: black;
+    /* background-color: #0988e2; */
+}
+
+/*formulaire de recherche*/
+.searchBar {
+    /* align-content: center; */
+    display: inline-block;
+    text-align: center;
+    /* background-color: #003580; */
+    margin: 10px 50px;
+}
+
+.searchBar form {
+    display: inline-block;
+    /* text-align: center; */
+
+}
+
+.searchBar form input:first-of-type {
+    font-family: robotoRegular;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    /* border-color: unset; */
+}
+
+.searchBar form input:last-of-type, .formulaireInfo button {
+    font-family: robotoRegular;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    border-color: unset;
+    background-color: #003580
+}
+
+.searchBar form input:last-of-type:hover, .formulaireInfo button:hover {
+    font-family: roboto;
+    border-color: black;
+    background-color: #0988e2;
+    color: black;
+}
+
+
+table {
+    display: inline-block;
+
+    /* background-color: red; */
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+table tr td {
+    border: solid 1px black;
+    font-family: robotoRegular;
+    font-weight: 100;
+    /* font-weight: lighter; */
+
+
+}
+
+table tr:hover {
+    background-color: white;
+
+}
+
+table tr:first-of-type {
+    background-color: #acacac;
+
+}
+
+table tr {
+    background-color: #ecedee;
+
+}
+
+
+table tr th {
+    font-family: roboto;
+    padding: 15px;
+    width: 120px;
+    border: solid 1px black;
+
+    /* background-color: #febb02; */
+}
+
+table tr th:first-of-type {
+    width: 50px;
+}
+
+table .nameColonne {
+    width: 250px;
+}
+
+table .actionsColonne {
+
+    width: 200px;
+}
+
+/*modifie/supprimer/afficher client images*/
+table a img {
+    width: 30px;
+    margin: 0px 10px;
+    border-bottom: solid 3px #ecedee;
+    /* vertical-align: middle; */
+}
+
+table a img:hover {
+    border-bottom: solid 3px black;
+}
+
+
+/*formulaire edit/add/display*/
+.formulaireInfo {
+    text-align: center;
+    /* background-color: red; */
+}
+
+
+
+
+
+.formulaireInfo form div input, select {
+    font-family: robotoRegular;
+    /* font-style: italic; */
+    /* font-style: italic; */
+    font-size: large;
+    width: 200px;
+    padding: 10px;
+    margin: 2px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* display: inline-block; */
+}
+
+select {
+    width: 222px;
+}
+
+/*changer la couleur du champs*/
+.formulaireInfo form div .id, .display form div input {
+    /* border: unset;
+    border-color: white; */
+    background-color: #acacac;
+
+}
+
+
+
+.formulaireInfo form div span span {
+    color: red;
+}
+
+
+
+.formulaireInfo form fieldset:first-of-type {
+    /* background-color: red; */
+    display: inline-block;
+    text-align: right;
+    border-color: unset;
+    border: unset;
+}
+
+.formulaireInfo form fieldset:last-of-type {
+    /* background-color: red; */
+    display: inline-block;
+    text-align: right;
+    border-color: unset;
+    border: unset;
+}
+
+/* .formulaireInfo form fieldset div span {
+    text-align: right;
+} */
+
+.formulaireInfo form div span {
+    /* display: inline-block; */
+    font-family: robotoRegular;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+
+
+
+
+/*footer*/
+footer {
+    font-family: robotoRegular;
+    background-color: #003580;
+    margin-top: 20px;
+    color: white;
+    padding: 10px
+}
